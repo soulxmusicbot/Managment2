@@ -14,18 +14,18 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = "123458494"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    STRING_SESSION = "12345abc6"
+    API_ID = 25356670  # integer value, dont use ""
+    API_HASH = "94a2182d88b21886ac439f5e670288be"
+    TOKEN = "7460655407:AAGIByxyU0drSWIX0EkZJ8IFFE_wkNuDlqo"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    STRING_SESSION = ""
     OWNER_ID = 1732814103  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "Awesome_Prince"
-    SUPPORT_CHAT = "Besties_XD"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "Xtreme_bots"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001739802989
+        -1002690602687
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001739802989
+        -1002690602687
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
@@ -44,7 +44,7 @@ class Config(object):
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
     DRAGONS = get_user_list("elevated_users.json", "sudos")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "devs")
+    DEV_USERS = get_user_list("elevated_users.json", "7368341648 2107880985")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     DEMONS = get_user_list("elevated_users.json", "supports")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
@@ -95,17 +95,17 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = "12345abcdefg23459"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1732814103  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Awesome_Prince"
-    SUPPORT_CHAT = "Besties_XD"  # Your own group for support, do not add the @
+    API_ID = 25356670  # integer value, dont use ""
+    API_HASH = "94a2182d88b21886ac439f5e670288be"
+    TOKEN = "7460655407:AAGIByxyU0drSWIX0EkZJ8IFFE_wkNuDlqo"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 7013604559  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "razorsharp01"
+    SUPPORT_CHAT = "Xtreme_bots"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001739802989
+        -1002690602687
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001739802989
+        -1002690602687
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
@@ -121,7 +121,7 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("elevated_users.json", "sudos")
+    DRAGONS = get_user_list("elevated_users.json", "7368341648 2107880985")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
     DEV_USERS = get_user_list("elevated_users.json", "devs")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
